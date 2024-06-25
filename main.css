@@ -1,0 +1,19 @@
+body {
+    background-color: gray;
+}
+
+p{
+    color: red;
+    background-color: black;
+}
+
+/* #auebText {
+    color: green;
+} */
+
+.aueb-text {
+    color: green;
+}
+.uoa-text {
+    color: #fff
+}

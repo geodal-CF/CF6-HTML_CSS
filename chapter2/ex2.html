@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex2.css">
+</head>
+<body>
+    <div class="outer">
+        <form>
+            <h1>Φόρμα Πληρωμής</h1>
+            <p>Τα υποχρεωτικά πεδία ακολουθούνται από <abbr class="req" title="Required field">*</abbr>.</p>
+            <h2>Προσωπικά Στοιχεία</h2>
+            <fieldset class="title"><legend>Title</legend>
+                <div>
+                    <input type="radio" name="title">
+                    <label for="mr">Mr.</label>
+                </div>
+                <div>
+                    <input type="radio" name="title">
+                    <label for="mrs">Mrs.</label>
+                </div>
+                <div>
+                    <input type="radio" name="title">
+                    <label for="dr">Dr.</label>
+                </div>
+            </fieldset>    
+            <div class="align-right">
+                <label for="name">Name: <abbr class="req" title="Required field">*</abbr></label>
+                <input type="text" size="35">
+            </div>
+            <div class="align-right">
+                <label for="email">E-mail: <abbr class="req" title="Required field">*</abbr></label>
+                <input type="email" size="35">
+            </div>   
+            <div class="align-right">
+                <label for="password">Password: <abbr class="req" title="Required field">*</abbr></label>
+                <input type="password" size="35">
+            </div>   
+                <div>
+                <h2>Πληροφορίες Πληρωμής</h2>
+                </div>
+                <div class="card-input">
+                    <label for="cardtype">Card type: </label>
+                    <select name="cardtype">
+                    <option value="visa">Visa</option>
+                    <option value="mc">Mastercard</option>
+                    <option value="amex">American Express</option>
+                    </select>
+                </div>
+                <div class="align-right">
+                    <label for="cardnumber">Card number: <abbr class="req" title="Required field">*</abbr></label>
+                    <input type="password" size="35">
+                </div>
+                <div class="align-right">
+                    <label for="expdate">Expiration date: <abbr class="req" title="Required field">*</abbr></label>
+                    <input type="text" size="35" placeholder="MM/YY">
+                </div>
+                <div class="bottom-button">
+                    <input type="submit" value="Προχωρήστε στην πληρωμή">
+                </div>        
+            </div>
+        </form>        
+</body>
+</html>
